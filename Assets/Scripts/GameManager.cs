@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour
 
 	public void ReiniciarJuego()
     {
+
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
